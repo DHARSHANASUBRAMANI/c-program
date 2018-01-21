@@ -4,10 +4,10 @@ void main()
 int a,b;
 printf("enter the minutes");
 scanf("%d",&a);
-while(a>=60)
+while(a>=0)
 {
 b=a/60;
 c=a%60;
-printf("hours is %d%d",b,c;
+printf("hours is %d%d",b,c);
 }
 }
