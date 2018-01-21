@@ -7,6 +7,7 @@ scanf("%d",&a);
 while(a>=60)
 {
 b=a/60;
-printf("hours is %d%d",a,b);
+c=a%60;
+printf("hours is %d%d",b,c;
 }
 }
