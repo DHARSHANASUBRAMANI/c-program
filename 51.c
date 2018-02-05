@@ -5,10 +5,10 @@ void main()
 		b=a/100;
 		c=a%100;
 		
-		printf("%d",b);
+		printf("%d\t",b);
 		b=c/10;
 		t=c%10;
-		printf("%d%d",b,t);
+		printf("%d %d",b,t);
 		
 		
 	
