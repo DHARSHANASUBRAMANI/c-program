@@ -1,17 +1,27 @@
 #include "stdio.h"
-#include<string.h>
+#include"string.h"
 void main()
 {
-  int i;
+  int i,count=0;
  char x[10];
  scanf("%s",x);
+ 
+ for(i=0;x[i]!='\0';i++)
+ {
  if((x[i]=='a')||(x[i]=='e')||(x[i]=='i')||(x[i]=='o')||(x[i]=='u'))
- {
-   printf("vowel");
+ 
+   count=count+1;
+ 
+   
  }
- else
- {
-   printf("not vowel");
- }
+ if(count!=0)
+ 
+  printf("vowel");
+ 
+ 
+  else
   
+    printf("not vowel");
+  
+ 
 }
