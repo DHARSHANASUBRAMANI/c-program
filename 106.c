@@ -2,8 +2,8 @@
 
 int main(void) 
 {
-  int n;
+  int a;
  printf("enter the number");
- scanf("%d",&n);
- printf("%c",n+64);
+ scanf("%d",&a);
+ printf("%c",a+64);
 }
